@@ -1,0 +1,27 @@
+//Faça um algoritmo que receba dois números e exiba o resultado da sua soma.
+
+
+Algoritmo "Soma de dois números"
+
+Var
+num1, num2 : inteiro
+soma: inteiro
+
+
+Inicio
+escreval("::::::SOMA DE DOIS NÚMEROS:::::")
+escreval(" ")
+
+escreval ("Informe o primeiro número e pressione Enter:")
+leia (num1)
+
+escreval ("Informe o segundo número e pressione Enter: ")
+leia(num2)
+
+soma<- num1 + num2
+escreval (" ")
+escreval (" ")
+escreval("A soma desses dois números é :", soma)
+
+
+Fimalgoritmo

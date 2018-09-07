@@ -1,0 +1,31 @@
+//Exercício 001
+//Determinar se um número é par ou ímpar e positivo ou negativo
+
+
+Algoritmo "Identidade do número"
+
+Var
+//criando a variável num
+num: inteiro
+
+
+Inicio
+//o comando escreva é usado para saída de dados
+escreval("Digite um número e pressione Enter: ")
+
+//o comando leia é usado para entrada de dados
+leia (num)
+
+se (num mod 2 = 0) entao
+escreva ("Esse número é par e ")
+senao
+escreva ("Esse número é ímpar e ")
+fimse
+
+se num > 0 entao
+escreval ("positivo.")
+senao
+escreval ("negativo.")
+fimse
+
+Fimalgoritmo

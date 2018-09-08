@@ -1,0 +1,45 @@
+// Escrever um algoritmo que leia o nome de um vendedor, o seu 
+// salário fixo e o total de vendas efetuadas por ele no
+// mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre 
+// suas vendas efetuadas, informar o seu nome, o salário fixo e salário no final do mês
+
+
+
+
+Algoritmo "comissão de vendas"
+
+Var
+nome : caractere
+vendas, salario1, salario2, comissao : real
+
+
+Inicio
+escreval("::::CÁLCULO DE COMISSÃO DE VENDAS::::")
+escreval("")
+escreval("")
+
+escreval("Informe o nome do vendedor e pressione Enter: ")
+leia(nome)
+escreval("")
+
+escreval("Informe o valor das vendas realizadas no mês: ")
+leia(vendas)
+escreval("")
+
+escreval("Informe o valor do salário fixo do vendedor: ")
+leia(salario1)
+escreval("")
+
+//Cálculo da comissão
+comissao<- vendas*0.15
+salario2 <- salario1 + comissao
+
+escreval("")
+escreval("")
+escreval("Nome do vendedor: ",nome)
+escreval("Total de vendas realizadas: ",vendas)
+escreval("Valor do salário + comissão: ",salario2)
+
+
+
+Fimalgoritmo

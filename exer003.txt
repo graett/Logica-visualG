@@ -1,0 +1,51 @@
+//Faça um algoritmo que receba dois números e ao final mostre a 
+// soma, subtração, multiplicação e a divisão dos números lidos.
+
+
+
+Algoritmo "operações matemáticas"
+
+Var
+//criando as variáveis
+num1, num2: real
+soma, multiplicacao: real
+diferenca, divisao : real
+
+Inicio
+
+escreval("::::AS QUATRO OPERAÇÕES MATEMÁTICAS::::")
+escreval("")
+escreval("Informe um número e pressione Enter:")
+leia(num1)
+escreval("Informe outro número e pressione Enter:")
+leia(num2)
+
+escreval("")
+escreval("")
+
+//criando a função soma
+soma<-num1 + num2
+escreval("A soma desses números é: ", soma)
+
+//criando a funçãomultiplicação
+multiplicacao <- num1 * num2
+escreval("A multiplicação desses números é: ", multiplicacao)
+
+//criando a função diferença
+diferenca <- num1 - num2
+escreval("A diferença entre esses números é: ", diferenca)
+
+//criando a função divisão
+//ao informar 0 como vlor para o segundo número, o visualg devolve uma
+//mensagem de erro "floating point division by zero"
+//usando o condicional se é possivel retornar uma solução.
+se num2 = 0 entao
+escreval ("Não é possível dividir o primeiro número por 0")
+senao
+  divisao <- num1/num2)
+  escreval("A divisão entre esses números é: ", divisao)
+fimse
+
+
+
+Fimalgoritmo

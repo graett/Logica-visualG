@@ -1,0 +1,37 @@
+// Escrever um algoritmo para determinar o consumo médio de um 
+// automóvel sendo fornecida a distância total percorrida pelo automóvel e 
+// o total de combustível gasto.
+
+
+
+
+Algoritmo "consumo combustível"
+
+Var
+m_combustivel, combustivel, distancia: real
+
+
+
+Inicio
+escreval("::::CONSUMO MÉDIO DE COMBUSTÍVEL::::")
+escreval("")
+escreval("")
+
+escreval("Informe a quantidade de combustível que seu veículo gastou:")
+leia(combustivel)
+escreval("")
+
+escreval("Informe a distância percorrida em km:")
+leia(distancia)
+
+m_combustivel <- distancia/combustivel
+
+escreval("")
+//para restringir a quantidade de casas decimais antes e depois da vírgula
+//basta sinalizar com :n:n após a variavél que deseja retornar valor
+escreval("O consumo médio de combustivel que seu veículo tem é de: ",m_combustivel:2:2)
+
+
+
+
+Fimalgoritmo

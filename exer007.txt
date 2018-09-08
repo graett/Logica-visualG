@@ -1,0 +1,52 @@
+// Escrever um algoritmo que leia o nome de um aluno e as notas 
+// das três provas que ele obteve no semestre. No final
+// informar o nome do aluno e a sua média (aritmética).
+// OBS: UTILIZAR VETOR PARA GUARDAR AS NOTAS
+
+
+
+Algoritmo "Média escolar"
+
+Var
+nome: caractere
+i, x: inteiro
+notas: vetor[1..3] de real
+soma_notas, media: real
+
+
+Inicio
+escreval("::::MÉDIA ESCOLAR::::")
+escreval("")
+
+escreval("Informe o nome do aluno: ")
+leia(nome)
+escreval("")
+
+//inserindo os valores no vetor notas
+para i de 1 ate 3 faca
+escreval("Informe a nota",i)
+leia(notas[i])
+fimpara
+
+//somando as notas armazenadas no vetor
+para x de 1 ate 3 faca
+soma_notas <- soma_notas + notas[x]
+fimpara
+
+//calculando a média das notas
+media <- soma_notas/3
+
+escreval("")
+escreval("::::::::::::::::::::::::::::::::::")
+escreval("")
+escreval("Nome do aluno: ",nome)
+escreval("Nota 1: ", notas[1])
+escreval("Nota 2: ", notas[2])
+escreval("Nota 3: ", notas[3])
+escreval("Média das notas: ",media:3:1)
+escreval("")
+escreval("::::::::::::::::::::::::::::::::::")
+
+
+
+Fimalgoritmo

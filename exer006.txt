@@ -1,0 +1,44 @@
+// Escrever um algoritmo que leia o nome de um aluno e as notas 
+// das três provas que ele obteve no semestre. No final
+// informar o nome do aluno e a sua média (aritmética)
+
+
+
+Algoritmo "Média de notas"
+
+Var
+nome: caractere
+n1, n2, n3, media: real
+
+
+Inicio
+escreval("::::MÉDIA DE NOTAS ESCOLARES::::")
+escreval("")
+escreval("")
+
+escreval("Informe o nome do aluno:")
+leia(nome)
+escreval("")
+
+escreval("Informe a primeira nota:")
+leia(n1)
+escreval("")
+
+escreval("Informe a segunda nota:")
+leia(n2)
+escreval("")
+
+escreval("Informe a terceira nota:")
+leia(n3)
+escreval("")
+escreval("")
+escreval("")
+
+//Cálculo da média
+media<- (n1+n2+n3)/3
+
+escreval("Nome do aluno: ",nome)
+escreval("Nota 1: ",n1)
+escreval("Nota 2: ",n2)
+escreval("Nota 3: ",n3)
+escreval("Média das notas: ",media:3:1)

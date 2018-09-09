@@ -1,0 +1,24 @@
+// Ler uma temperatura em graus Celsius e apresentá-la convertida
+// em graus Fahrenheit. 
+
+
+
+Algoritmo "Conversão de temperatura"
+
+Var
+C, F: real
+
+
+Inicio
+escreval("::::CONVERSÃO DE TEMPERATURA::::")
+escreval("")
+escreval("Informe a temperatura em Celsiuse:")
+leia(C)
+escreval("")
+
+F <-(1.8*C+32)
+
+escreval("A temperatura em Celsius é: ", C)
+escreval("A temperatura em Fahrenheit é: ", F)
+
+Fimalgoritmo

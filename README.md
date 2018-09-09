@@ -22,3 +22,5 @@ Exer006 - Escrever um algoritmo que leia o nome de um aluno e as notas das três
 Exer007 - Semelhante ao Exer006, porém deve-se utilizar um vetor para armazenar as notas.
 
 Exer008 - Ler dois valores para as variáveis X e Y, e efetuar as trocas dos valores de forma que a variável X passe a possuir o valor da variável Y e a variável Y passe a possuir o valor da variável X. Apresentar os valores trocados.
+
+Exer009 - Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. 

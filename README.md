@@ -23,4 +23,6 @@ Exer007 - Semelhante ao Exer006, porém deve-se utilizar um vetor para armazenar
 
 Exer008 - Ler dois valores para as variáveis X e Y, e efetuar as trocas dos valores de forma que a variável X passe a possuir o valor da variável Y e a variável Y passe a possuir o valor da variável X. Apresentar os valores trocados.
 
-Exer009 - Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. 
+Exer009 - Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
+
+Exer010 - Elaborar um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também a quantidade de dólares disponíveis com o usuário.

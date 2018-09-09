@@ -1,0 +1,40 @@
+// Elaborar um algoritmo que efetue a apresentação do valor da 
+// conversão em real (R$) de um valor lido em dólar
+// (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também
+// a quantidade de dólares disponíveis com o usuário.
+
+
+
+
+Algoritmo "Cotação dólar"
+
+Var
+dreal, dolar, cotacao : real
+dolarTotal, dolarTroca: real
+
+
+Inicio
+escreval("::::DÓLAR / REAL ::::")
+escreval("")
+
+escreval("Informe a quantidade de dólar que você já possui:")
+leia(dolarTotal)
+escreval("")
+
+escreval("Informe o valor da cotação do dólar para o real:")
+leia(cotacao)
+escreval("")
+
+escreval("Informe a quantidade de dólar que você quer converter em real:")
+leia(dolarTroca)
+escreval("")
+
+dolarTotal <- dolarTotal - dolarTroca
+
+dreal <- dolarTroca * cotacao
+
+escreval("Com ",dolarTroca," dólares você consegue ",dreal," reais.")
+escreval("Com essa conversão você passa a ter: ", dolarTotal, " dólares.")
+
+
+Fimalgoritmo

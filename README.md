@@ -26,3 +26,5 @@ Exer008 - Ler dois valores para as variáveis X e Y, e efetuar as trocas dos val
 Exer009 - Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
 
 Exer010 - Elaborar um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também a quantidade de dólares disponíveis com o usuário.
+
+Exer011 - Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês. Considere fixo o juro da poupança em 0,07% a. m.

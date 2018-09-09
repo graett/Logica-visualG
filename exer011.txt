@@ -1,0 +1,23 @@
+// Faça um algoritmo que receba um valor que foi depositado e 
+// exiba o valor com rendimento após um mês.
+// Considere fixo o juro da poupança em 0,07% a. m.
+
+
+
+Algoritmo "Rendimento poupança"
+
+Var
+deposito, jurosM, calculo, rendimento: real
+
+Inicio
+escreval("Informe o valor do depósito a ser realizado:")
+leia(deposito)
+escreval("")
+
+jurosM <-0.07
+rendimento <- (deposito * jurosM)+ deposito
+
+
+escreval("Após 1 mês na poupança seu depósito rendeu: ",rendimento," reais.")
+
+Fimalgoritmo

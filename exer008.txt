@@ -1,0 +1,35 @@
+// Ler dois valores para as variáveis X e Y, e efetuar as trocas 
+// dos valores de forma que a variável X passe a possuir o
+// valor da variável Y e a variável Y passe a possuir o valor da variável 
+// X. Apresentar os valores trocados.
+
+
+
+Algoritmo "Troca de valores"
+
+Var
+n1, n2, n3: inteiro
+
+
+Inicio
+
+escreval("Informe um número inteiro para a variável x:")
+leia(n1)
+escreval("")
+
+escreval("Informe um número inteiro para a variável y:")
+leia(n2)
+escreval("")
+
+//Uma terceira variável será usada como intermediária durante a troca
+n3 <- n1
+n1 <- n2
+n2 <- n3
+
+escreval("")
+escreval("As variáveis x e y aparecerão com valores trocados:")
+escreval("X agora vale: ", n1)
+escreval("Y agora vale: ",n2)
+
+
+Fimalgoritmo

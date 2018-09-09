@@ -1,0 +1,33 @@
+// Faça um algoritmo que receba o preço de custo de um produto e 
+// mostre o valor de venda. Sabe-se que o preço de
+// custo receberá um acréscimo de acordo com um percentual informado pelo usuário.
+
+
+Algoritmo "Valor de venda"
+
+Var
+pcusto, vvenda, taxa: real
+
+
+Inicio
+escreval("::::PREÇO DE CUSTO X VALOR DE VENDA::::")
+escreval("")
+
+escreval("Informe o preço de custo do produto desejado:")
+leia(pcusto)
+escreval("")
+
+escreval("Informe a taxa em % a ser negociada:")
+leia(taxa)
+escreval("")
+
+vvenda <- (pcusto * taxa) + pcusto
+
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+escreval("")
+escreval("O valor de venda do produto é de: ",vvenda:5:2," reais.")
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+
+Fimalgoritmo

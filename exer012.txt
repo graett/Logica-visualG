@@ -1,0 +1,29 @@
+// A Loja Mamão com Açúcar está vendendo seus produtos em 5
+// (cinco) prestações sem juros. Faça um algoritmo que
+// receba um valor de uma compra e mostre o valor das prestações.
+
+
+Algoritmo "Prestações sem juros"
+
+Var
+valorIntegral, prestacao, qnt: real
+
+
+Inicio
+escreval("::::PRESTAÇÕES SEM JUROS::::")
+escreval("")
+
+escreval("Informe o valor integral do produto:")
+leia(valorIntegral)
+escreval("")
+
+escreval("Informe a quantidade de prestações desejadas (1 a 5):")
+leia(qnt)
+escreval("")
+
+prestacao <- valorIntegral/qnt
+
+escreval("O produto pode ser adquirido em ",qnt," parcela(s) de ",prestacao:5:2," reais.")
+
+
+Fimalgoritmo

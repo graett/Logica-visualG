@@ -36,3 +36,5 @@ Exer013 - Faça um algoritmo que receba o preço de custo de um produto e mostre
 Exer014 - Calcular o preço de uma mercadoria dados o seu peso e o preço por Kg.
 
 Exer015 - Apresentar os dois números maiores entre 3 números informados.
+
+Exer016 - Determinar qual é o maior entre três números inteiros.

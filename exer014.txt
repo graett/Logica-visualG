@@ -1,0 +1,31 @@
+//Calcular o preço de uma mercadoria dados o seu peso e o preço por Kg.
+
+
+
+Algoritmo "Vale quanto pesa"
+
+Var
+peso, valorPeso, valorFinal: real
+
+Inicio
+escreval("::::VALE QUANTO PESA")
+escreval("")
+
+escreval("Informe o peso do produto em kilos: ")
+leia(peso)
+escreval("")
+
+escreval("Informe o valor por peso do produto:")
+leia(valorPeso)
+escreval("")
+
+valorFinal <-peso * valorPeso
+
+escreval(">>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+escreval("")
+escreval("O produto pesa: ", peso, " kilos")
+escreval("O custo do kg desse produto é de: ", valorPeso, " Reais.")
+escreval("O produto custa: ", valorFinal:5:2," eais.")
+
+
+Fimalgoritmo

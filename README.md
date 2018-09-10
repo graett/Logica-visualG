@@ -32,3 +32,7 @@ Exer011 - Faça um algoritmo que receba um valor que foi depositado e exiba o va
 Exer012 - A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações.
 
 Exer013 - Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário.
+
+Exer014 - Calcular o preço de uma mercadoria dados o seu peso e o preço por Kg.
+
+Exer015 - Apresentar os dois números maiores entre 3 números informados.

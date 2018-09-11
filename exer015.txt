@@ -1,0 +1,64 @@
+//Apresentar os dois números maiores entre 3 números informados
+
+
+
+
+Algoritmo "Números maiores"
+
+Var
+n1, n2, n3: inteiro
+
+
+Inicio
+escreval("::::SELEÇÃO DOS MAIORES NÚMEROS::::")
+escreval("")
+
+escreval("Informe o valor do primeiro número:")
+leia(n1)
+escreval("")
+
+escreval("Informe o valor do segundo número:")
+leia(n2)
+escreval("")
+
+escreval("Informe o valor do terceiro número:")
+leia(n3)
+escreval("")
+escreval("")
+
+
+//Retorna se todos os números forem diferentes ou dois iguais e maiores.
+se (n1 > n3) e (n2 > n3) entao
+escreval("Os números ",n1, " e ", n2, " são maiores que ",n3, ".")
+senao
+     se (n1> n2) e (n2 < n3) entao
+     escreval("Os números ",n1," e ", n3," são maiores que ",n2,".")
+     senao
+          se (n1 < n2) e (n1 < n3) entao
+          escreval("Os números ",n2, " e ", n3, " são maiores que ",n1,".")
+          fimse
+     fimse
+fimse
+
+
+//Retorna se dois números forem iguais e menores.
+se(n1=n2) e (n1<n3) entao
+escreval("Os números: ",n1," e ",n2," são iguais e menores que ",n3,".")
+senao
+     se(n2=n3) e (n1>n2) entao
+     escreval("Os números: ",n2," e ",n3," são iguais e menores que ",n1,".")
+     senao
+          se (n1=n3) e (n1<n2) entao
+          escreval("Os números: ",n1," e ",n3," são iguais e menores que ",n2,".")
+          fimse
+     fimse
+fimse
+
+//Retorna se dois números forem iguais.
+se (n1 = n2) e (n2 = n3) entao
+escreval("Os três números são iguais.")
+fimse
+
+
+
+Fimalgoritmo

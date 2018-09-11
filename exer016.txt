@@ -1,0 +1,53 @@
+//Determinar qual é o maior entre três números inteiros.
+
+
+
+Algoritmo "O maior"
+
+Var
+n1,n2,n3:inteiro
+
+
+Inicio
+escreval("::::O MAIOR DE TRÊS::::")
+escreval("")
+
+escreval("Informeo primeiro número:")
+leia(n1)
+escreval("")
+
+escreval("Informe o segundo número:")
+leia(n2)
+escreval("")
+
+escreval("Informe o terceiro número:")
+leia(n3)
+escreval("")
+
+//Calculando o maior número entre os 3
+se (n1>=n2) e (n1>n3) entao
+escreval("O número: ",n1," é o maior!")
+senao
+     se(n2>=n1) e (n2>n3) entao
+     escreval("O número: ", n2," é o maior!")
+     senao
+          se(n3>=n1) e (n3>n2) entao
+          escreval("O número: ",n3," é o maior!")
+          senao
+               se(n3>n1) e (n3>=n2)entao
+               escreval("O número: ",n3," é o maior!")
+               senao
+                    se (n1=n2) e (n1=n3) entao
+                    escreval("Os números são iguais.")
+                    fimse
+               fimse
+          fimse
+     fimse
+fimse
+
+
+
+escreval("")
+
+
+Fimalgoritmo

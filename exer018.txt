@@ -1,0 +1,29 @@
+// Faça um algoritmo que receba um número e diga se este número 
+// está no intervalo entre 100 e 200.
+
+
+Algoritmo "Entre números"
+
+Var
+msg1, msg2: caractere
+n: inteiro
+
+
+Inicio
+escreval("::::ENTRE NÚMEROS::::")
+escreval("")
+
+escreval("Informe um número de 1 a 250 e pressione Enter:")
+leia(n)
+escreval("")
+
+msg1 <- ("Esse número está entre 100 e 200")
+msg2 <- ("Esse número não está entre 100 e 200")
+
+se (100 <= n) e (n <= 200) entao
+escreval(msg)
+senao
+     escreval(msg2)
+fimse
+
+Fimalgoritmo

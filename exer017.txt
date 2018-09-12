@@ -1,0 +1,27 @@
+//Faça um algoritmo que receba um número e mostre uma mensagem 
+//caso este número seja maior que 10.
+
+
+Algoritmo "Maior que dez"
+
+Var
+msg: caractere
+n: inteiro
+
+
+Inicio
+escreval("::::MAIOR OU MENOR::::")
+escreval("")
+
+escreval("Informe um número e pressione Enter:")
+leia(n)
+escreval("")
+
+msg <- ("Esse número é maior que 10.")
+
+se n > 10 entao
+escreval(msg)
+fimse
+
+
+Fimalgoritmo

@@ -38,3 +38,7 @@ Exer014 - Calcular o preço de uma mercadoria dados o seu peso e o preço por Kg
 Exer015 - Apresentar os dois números maiores entre 3 números informados.
 
 Exer016 - Determinar qual é o maior entre três números inteiros.
+
+Exer017 - Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10.
+
+Exer018 - Função : Faça um algoritmo que receba um número e diga se este número está no intervalo entre 100 e 200.

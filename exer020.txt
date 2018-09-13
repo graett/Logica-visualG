@@ -1,0 +1,50 @@
+// Escrever um algoritmo que leia o nome e as três notas obtidas
+// por um aluno durante o semestre. Calcular a sua
+// média (aritmética), informar o nome e sua menção aprovado (media >= 7), // Reprovado (media <= 5) e Recuperação
+// (media entre 5.1 a 6.9).
+
+
+Algoritmo "Aprovado ou reprovado"
+
+Var
+nome: caractere
+n1, n2, n3, media : real
+
+
+Inicio
+escreval("::::APROVADO OU REPROVADO::::")
+escreval("")
+
+escreval("informe o nome do aluno:")
+leia(nome)
+escreval("")
+
+escreval("Iforme a primeira nota:")
+leia(n1)
+escreval("")
+
+escreval("Informe a segunda nota:")
+leia(n2)
+escreval("")
+
+escreval("Informe a terceira nota:")
+leia(n3)
+escreval("")
+
+media <-(n1+n2+n3)/3
+
+
+se media >= 7 entao
+escreval("O aluno ", nome," com a média ",media:3:1," está aprovado.")
+senao
+     se (media < 6.9) e (media > 5.1) entao
+     escreval("O aluno ", nome," com a média ",media:3:1," está de recuperação.")
+     senao
+          se media <= 5 entao
+          escreval("O aluno ", nome," com a média ",media:3:1," está reprovado.")
+          fimse
+     fimse
+fimse
+
+
+Fimalgoritmo

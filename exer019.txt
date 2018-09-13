@@ -1,0 +1,36 @@
+// O custo ao consumidor de um carro novo é a soma do custo de 
+// fábrica com a percentagem do distribuidor e dos
+// impostos (aplicados, primeiro os impostos sobre o custo de fábrica, e 
+// depois a percentagem do distribuidor sobre o
+// resultado). Supondo que a percentagem do distribuidor seja de 28% e os 
+// impostos 45%. Escrever um algoritmo que
+// leia o custo de fábrica de um carro e informe o custo ao consumidor do mesmo.
+
+
+
+Algoritmo "Custo ao consumidor"
+
+Var
+vFinal, vTaxado, pCusto, pDist, tdist, imposto : real
+
+
+Inicio
+escreval("::::CUSTO DE UM CARRO::::")
+escreval("")
+
+escreval("Informe o preço de custo do carro:")
+leia(pcusto)
+escreval("")
+
+imposto <- 0.45
+tdist <-0.28
+vTaxado <- (pcusto *imposto)+pcusto
+pDist <- (vTaxado*tdist)+vTaxado
+vFinal <-pDist
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>>>>>")
+escreval("O valor final do carro ao consumidor é de: ",vFinal:9:2," Reais.")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>>>>>")
+
+
+Fimalgoritmo

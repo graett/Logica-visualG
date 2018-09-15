@@ -54,3 +54,5 @@ Exer022 - Leia 15 números e ao final informar quantos números estão no interv
 Exer023 - Faça um algoritmo que receba a idade de 5 pessoas e mostre uma mensagem informando "maior de idade" e "menor de idade" para cada pessoa. Considere a idade a partir de 18 anos como maior de idade.
 
 Exer024 - Escrever um algoritmo que leia o nome e o sexo de 56 pessoas e informe o nome e se ela é homem ou mulher. No final informe total de homens e de mulheres.
+
+Exer025 - A concessionária de veículos CARANGO VELHO está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente de vários carros. O desconto deverá ser calculado de acordo com o ano do veículo. Até 2000 - 12% e acima de 2000 - 7%. O sistema deverá perguntar se deseja continuar calculando desconto até que a resposta seja: (N) Não. Informar total de carros com ano até 2000 e total geral.

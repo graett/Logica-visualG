@@ -48,3 +48,5 @@ Exer019 - O custo ao consumidor de um carro novo é a soma do custo de fábrica 
 Exer020 - Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média (aritmética), informar o nome e sua menção aprovado (media >= 7), Reprovado (media <= 5) e Recuperação (media entre 5.1 a 6.9).
 
 Exer021 - Mostrar em ordem decrescente três números inteiros.
+
+Exer022 - Leia 15 números e ao final informar quantos números estão no intervalo entre 10 (inclusive) e 150 (inclusive).

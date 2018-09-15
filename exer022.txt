@@ -1,0 +1,32 @@
+//Leia 15 números e ao final informar quantos números
+//estão no intervalo entre 10 (inclusive) e 150 (inclusive). 
+
+
+Algoritmo "Intervalo"
+
+Var
+i, n, intervalo: inteiro
+
+
+
+Inicio
+escreval("::::INTERVALO ENTRE NÚMEROS::::")
+escreval("")
+
+para i de 1 ate 10 faca
+ escreval("Informe um número e pressione Enter: ")
+ leia(n)
+ se (n >= 10) entao
+ se (n <= 150) entao
+ intervalo <- intervalo + 1
+ fimse
+ fimse
+fimpara
+escreval(">>>>>>>>>>>>>>>>>>>>>")
+escreval("")
+escreval(intervalo," número(s) foram informados entre o intervalo de 10 e 150.")
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>")
+
+
+Fimalgoritmo

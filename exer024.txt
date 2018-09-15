@@ -1,0 +1,54 @@
+// Escrever um algoritmo que leia o nome e o sexo de 5 pessoas e 
+// informe o nome, e se ela é homem ou mulher. No
+// final informe total de homens e de mulheres.
+
+Algoritmo "Indicador de sexo"
+
+Var
+f, m, i : inteiro
+sexo, nome: caractere
+
+
+Inicio
+escreval("::::MASCULINO OU FEMININO::::")
+escreval("")
+
+para i de 1 ate 5 faca
+escreval("Informe m para masculino ou f para feminino")
+leia(sexo)
+
+//Caso o usuário informe uma opção diferente
+se sexo <>"m" entao
+se sexo<>"f" entao
+escreval("ANTENÇÃO! GÊNERO NÃO RECONHECIDO.")
+escreval("")
+fimse
+fimse
+
+//Caso o usuário informe uma opção correta:
+se sexo = "m" entao
+m <- m+1
+escreval("Informe um nome:")
+leia(nome)
+escreval(nome, " é um homem")
+escreval("")
+senao
+     se sexo = "f" entao
+     f <- f+1
+     escreval("Informe um nome:")
+     leia(nome)
+     escreval(nome, " é uma mulher")
+     escreval("")
+     fimse
+fimse
+
+
+fimpara
+escreval("+++++++++++++++++")
+escreval("")
+escreval("Total contabilizado: ", m," homem(ns).")
+escreval("Total contabilizado: ", f," mulher(es).")
+escreval("")
+escreval("+++++++++++++++++")
+
+Fimalgoritmo

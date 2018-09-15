@@ -52,3 +52,5 @@ Exer021 - Mostrar em ordem decrescente três números inteiros.
 Exer022 - Leia 15 números e ao final informar quantos números estão no intervalo entre 10 (inclusive) e 150 (inclusive).
 
 Exer023 - Faça um algoritmo que receba a idade de 5 pessoas e mostre uma mensagem informando "maior de idade" e "menor de idade" para cada pessoa. Considere a idade a partir de 18 anos como maior de idade.
+
+Exer024 - Escrever um algoritmo que leia o nome e o sexo de 56 pessoas e informe o nome e se ela é homem ou mulher. No final informe total de homens e de mulheres.

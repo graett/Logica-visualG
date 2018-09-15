@@ -1,0 +1,160 @@
+// Escrever um algoritmo que leia os dados de N pessoas (nome, 
+// sexo, idade e saúde) e informe se está apta ou não
+// para cumprir o serviço militar obrigatório. Informe os totais.
+
+
+Algoritmo "Aptidão"
+
+Var
+nome, sexo, saude, continuar: caractere
+idade, valido, nao_valido, saude_b, saude_a, cadastro: inteiro
+
+
+Inicio
+escreval("::::SERVIÇO MILITAR OBRIGATÓRIO::::")
+escreval("")
+
+//Estabelece o critério para encerrar o programa
+enquanto (sexo <> "f") faca
+
+escreval("CADASTRO:")
+escreval("")
+escreval("Informe o sexo (m - para masculino e f - para feminino):")
+leia(sexo)
+escreval("")
+
+//Transforma qualquer letra que não seja 'M' em 'F', invalidando o cadastro
+se (sexo = "f") ou (sexo <> "m") entao
+sexo <-"f"
+escreval("Cadastro Inválido! Apenas para o sexo masculino.")
+escreval("")
+fimse
+
+//Contabiliza a quantidade de cadastros realizados
+escreval("Informe o nome:")
+leia(nome)
+cadastro <- cadastro +1
+escreval("")
+
+escreval("Informe a idade:")
+leia(idade)
+escreval("")
+
+//Invalida cadastros de menores de idade, encerrando o programa
+se idade < 18 entao
+sexo <- "f"
+fimse
+
+//Contabiliza cadastro válidos e não válidos
+se (sexo = "m") e (idade >=18) entao
+   valido <- valido +1
+senao
+   nao_valido <- nao_valido + 1
+fimse
+
+
+se idade < 18 entao
+escreval("ATENÇÃO! Idade insuficiente para o serviço militar")
+escreval("")
+fimse
+
+escreval("Informe a condição de saúde:")
+escreval("b - para bom ou a - para avaliação")
+leia(saude)
+
+//Transforma qualquer letra que não seja 'B' e 'A' em 'A'.
+se (sexo ="m")entao
+se (saude <> "b") e (saude <> "a") entao
+   saude <- "a"
+   escreval("OPÇÃO INVÁLIDA! Saúde considerada para avaliação.")
+   fimse
+fimse
+
+
+//Contabiliza saude opção 'B'
+se (sexo = "m") entao
+se (idade >= 18) e (saude = "b") entao
+     saude_b <- saude_b + 1
+     escreval("")
+senao
+     saude_b <- saude_b + 0
+     fimse
+fimse
+
+//Contabiliza saude opção 'A'
+se (sexo = "m") entao
+se (idade >= 18) e (saude ="a") entao
+     saude_a <- saude_a +1
+     escreval("")
+senao
+     saude_a <- saude_a + 0
+     fimse
+fimse
+
+//Informa o feedback do cadastro
+se (saude = "b") entao
+   se (sexo = "m") e (idade >=18) entao
+   escreval("")
+   escreval("")
+   escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+   escreval("Apto para o serviço militar. Parabens!")
+   escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+   escreval("")
+   escreval("")
+   fimse
+fimse
+
+se (saude ="a") entao
+   se (sexo = "m") e (idade >=18) entao
+   escreval("")
+   escreval("")
+   escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+   escreval("Atenção!")
+   escreval("Necessário exames adcionais. Remarcar apresentação.")
+   escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+   escreval("")
+   escreval("")
+   fimse
+fimse
+
+se (sexo <> "m") entao
+escreval("")
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+escreval("Atenção!")
+escreval("CADASTRO INVÁLIDO!")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+escreval("")
+escreval("")
+fimse
+
+
+
+//Encerra cadastro, limpa a tela e reinicia novo cadastro ou encerra programa.
+escreval("")
+escreval("Cadastro concluído.")
+escreval("")
+escreval("Aperte qualquer tecla para continuar")
+leia(continuar)
+
+se continuar ="a" entao
+   limpatela
+senao
+     limpatela
+fimse
+fimenquanto
+
+//Contabiliza os dados inseridos no programa
+escreval("Total de cadastros realizados: ", cadastro)
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+escreval("")
+escreval("Total de cadastros aptos para o serviço militar: ", valido)
+escreval("Total de cadastros com boa saúde: ", saude_b)
+escreval("Total de cadastros com saúde para avaliação: ", saude_a)
+escreval("")
+escreval(">>>>>>>>>>>>>>>>>>>>>>>")
+escreval("")
+escreval("Total de cadastros inválidos: ", nao_valido)
+
+Fimalgoritmo

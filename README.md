@@ -60,3 +60,5 @@ Exer025 - A concessionária de veículos CARANGO VELHO está vendendo os seus ve
 Exer026 - Escrever um algoritmo que leia os dados de N pessoas (nome, sexo, idade e saúde) e informe se está apta ou não para cumprir o serviço militar obrigatório. Informe os totais.
 
 Exer027 - Escreva um algoritmo para imprimir os números de 1(inclusive) a 10 (inclusive) em ordem crescente.
+
+Exer028 - Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe média de preço de custo e do preço de venda.

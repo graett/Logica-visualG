@@ -1,0 +1,65 @@
+// Faça um algoritmo que receba o preço de custo e o preço de 
+// venda de 6 produtos. Mostre como resultado se
+// houve lucro, prejuízo ou empate para cada produto. Informe media de 
+// preço de custo e do preço de venda.
+
+
+
+
+Algoritmo "Prejuízo ou Lucro"
+
+Var
+i: inteiro
+pcusto, pvenda: real
+somacusto, somavenda: real
+
+
+
+Inicio
+escreval("::::PREJUÍZO OU LUCRO::::")
+escreval("")
+
+para i de 1 ate 6 faca
+escreval("________________________________________")
+escreval("")
+escreval("Informe o valor de custo do produto:")
+leia(pcusto)
+escreval("")
+
+escreval("Informe o valor de venda do produto:")
+leia(pvenda)
+escreval("")
+escreval("________________________________________")
+
+se pcusto < pvenda entao
+
+   escreval(">> HOUVE LUCRO NA VENDA DESSE PRODUTO")
+   escreval("")
+senao
+se pcusto > pvenda entao
+
+   escreval(">> HOUVE PREJUÍZO NA VENDA DESSE PRODUTO")
+   escreval("")
+senao
+se pcusto = pvenda entao
+
+   escreval(">> NÃO HOUVE LUCRO NEM PREJUÍZO NA VENDA DESSE PRODUTO")
+   escreval("")
+fimse
+fimse
+fimse
+
+somacusto <- somacusto + pcusto
+
+somavenda <- somavenda + pvenda
+
+
+fimpara
+escreval(">>>>>>>>>>>>>>")
+escreval("")
+escreval("A média de preço de custo é: ", (somacusto/6):7:2)
+escreval("A média de preço de venda é: ", (somavenda/6):7:2)
+escreval("")
+escreval(">>>>>>>>>>>>>>")
+
+Fimalgoritmo

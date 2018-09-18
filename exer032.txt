@@ -1,0 +1,50 @@
+// Faça um algoritmo que leia um número de 1 a 5 e escreva por 
+// extenso. Caso o usuário digite um número que não
+// esteja neste intervalo, exibir mensagem: número inválido.
+
+
+Algoritmo "Escreva o número"
+
+Var
+n: inteiro
+resposta: caractere
+
+
+Inicio
+
+enquanto resposta <> "n" faca
+
+escreval("::::NÚMERO POR EXTENSO::::")
+escreval("")
+escreval("Escolha um número de 1 a 5:")
+leia(n)
+escreval("")
+escolha n
+        caso 1
+        escreval("Um.")
+        
+        caso 2
+        escreval("Dois.")
+        
+        caso 3
+        escreval("Três.")
+        
+        caso 4
+        escreval("Quatro.")
+        
+        caso 5
+        escreval("Cinco.")
+        
+        outrocaso
+        escreval("Número inválido.")
+fimescolha
+
+escreval("")
+escreval("Deseja fazer uma nova consulta?")
+escreval("S - para sim ou N - para não")
+leia(resposta)
+limpatela
+
+fimenquanto
+
+Fimalgoritmo

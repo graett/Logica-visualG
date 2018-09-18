@@ -1,0 +1,54 @@
+// Faça um algoritmo que leia dois números e identifique se são 
+// iguais ou diferentes. Caso eles sejam iguais imprima
+// uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe 
+// qual número é o maior, e uma
+// mensagem que são diferentes.
+
+Algoritmo "Números iguais ou diferentes"
+
+Var
+num1, num2:inteiro
+resposta: caractere
+
+Inicio
+escreval("::::IGUAIS OU DIFERENTES?::::")
+escreval("")
+
+enquanto resposta <> "n"faca
+
+escreval("Informe o primeiro número:")
+leia(num1)
+escreval("")
+
+escreval("Informe o segundo número:")
+leia(num2)
+escreval("")
+
+se (num1 = num2) entao
+   escreval("Os dois números são iguais.")
+senao
+se(num1 <> num2) entao
+ escreval("Os dois números são diferentes.")
+fimse
+fimse
+
+se (num1 <> num2) e (num1 > num2) entao
+   escreval(num1," é maior que ",num2)
+senao
+se (num1 <> num2) e (num2 > num1) entao
+   escreval(num2," é maior que ",num1)
+fimse
+fimse
+
+
+escreval("")
+escreval("Deseja fazer outra consulta?")
+escreval("S - para sim e N - para não")
+leia(resposta)
+limpatela
+
+
+fimenquanto
+
+
+Fimalgoritmo

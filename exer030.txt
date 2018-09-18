@@ -1,0 +1,44 @@
+// Faça um algoritmo que receba N números e mostre positivo, 
+// negativo ou zero para cada número.
+
+
+
+Algoritmo "Positivo, negativo ou zero"
+
+Var
+num: inteiro
+resposta: caractere
+
+
+Inicio
+escreval("::::POSITIVO, NEGATIVO OU ZERO::::")
+escreval("")
+
+enquanto resposta <> "n" faca
+escreval("Informe um número:")
+leia(num)
+
+se num = 0 entao
+   escreval("Esse número é igual a zero")
+   escreval("")
+senao
+se num > 0 entao
+   escreval("Esse número é positivo.")
+   escreval("")
+senao
+se num < 0 entao
+   escreval("Esse número é negativo")
+   escreval("")
+fimse
+fimse
+fimse
+
+escreval("Deseja realizar nova consulta?")
+escreval("S - para sim e N - para não")
+leia(resposta)
+limpatela
+
+fimenquanto
+
+
+Fimalgoritmo

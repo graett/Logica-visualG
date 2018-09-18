@@ -66,3 +66,5 @@ Exer028 - Faça um algoritmo que receba o preço de custo e o preço de venda de
 Exer029 - Faça um algoritmo que receba um número e mostre uma mensagem caso este número for maior que 80, menor que 25 ou igual a 40.
 
 Exer030 - Faça um algoritmo que receba N números e mostre positivo, negativo ou zero para cada número.
+
+Exer031 - Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais imprima uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe qual número é o maior, e uma mensagem que são diferentes.

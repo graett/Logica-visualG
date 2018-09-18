@@ -68,3 +68,5 @@ Exer029 - Faça um algoritmo que receba um número e mostre uma mensagem caso es
 Exer030 - Faça um algoritmo que receba N números e mostre positivo, negativo ou zero para cada número.
 
 Exer031 - Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais imprima uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe qual número é o maior, e uma mensagem que são diferentes.
+
+Exer032 - Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número que não esteja neste intervalo, exibir mensagem: número inválido.

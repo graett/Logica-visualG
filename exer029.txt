@@ -1,0 +1,50 @@
+// Faça um algoritmo que receba um número e mostre uma mensagem 
+// caso este número for maior que 80, menor
+// que 25 ou igual a 40.
+
+
+
+
+Algoritmo "Maior ou menor"
+
+Var
+i: inteiro
+num: inteiro
+
+
+Inicio
+escreval("::::MAIOR, MENOR OU IGUAL?::::")
+escreval("")
+
+para i de 1 ate 6 faca
+
+escreval("")
+escreval("Informe um número de 1 a 100:")
+leia(num)
+
+se (num > 80) e (num <= 100) entao
+   escreval("Esse número é maior que 80.")
+   escreval("")
+senao
+se num = 40 entao
+   escreval("Esse número é igual a 40.")
+   escreval("")
+senao
+se num < 25 entao
+   escreval("Esse número é menor que 25.")
+   escreval("")
+senao
+se num > 100 entao
+   escreval("Informe somente números de 1 a 100.")
+   escreval("")
+fimse
+fimse
+fimse
+fimse
+
+fimpara
+
+
+
+
+Fimalgoritmo

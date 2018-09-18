@@ -62,3 +62,7 @@ Exer026 - Escrever um algoritmo que leia os dados de N pessoas (nome, sexo, idad
 Exer027 - Escreva um algoritmo para imprimir os números de 1(inclusive) a 10 (inclusive) em ordem crescente.
 
 Exer028 - Faça um algoritmo que receba o preço de custo e o preço de venda de 6 produtos. Mostre como resultado se houve lucro, prejuízo ou empate para cada produto. Informe média de preço de custo e do preço de venda.
+
+Exer029- Faça um algoritmo que receba um número e mostre uma mensagem caso este número for maior que 80, menor que 25 ou igual a 40.
+
+Exer030 - Faça um algoritmo que receba N números e mostre positivo, negativo ou zero para cada número.

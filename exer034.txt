@@ -1,0 +1,49 @@
+// Faça um algoritmo que receba o número do mês e mostre o mês 
+// correspondente. Informe se houver mês inválido.
+
+Algoritmo "Nome do mês"
+
+Var
+mes:inteiro
+
+
+Inicio
+escreval("::::QUE MÊSÉ ESSE?::::")
+escreval("")
+
+escreval("Informe o número do mês desejado:")
+leia(mes)
+escreval("")
+
+escolha mes
+       caso 1
+       escreval("O mês é Janeiro.")
+       caso 2
+       escreval("O mês é Fevereiro.")
+       caso 3
+       escreval("O mês é Março.")
+       caso 4
+       escreval("O mês é Abril.")
+       caso 5
+       escreval("O mês é Maio.")
+       caso 6
+       escreval("O mês é Junho.")
+       caso 7
+       escreval("O mês é Julho.")
+       caso 8
+       escreval("O mês é Agosto.")
+       caso 9
+       escreval("O mês é Setembro.")
+       caso 10
+       escreval("O mês é Outubro.")
+       caso 11
+       escreval("O mês é Novembro.")
+       caso 12
+       escreval("O mês é Dezembro.")
+       outrocaso
+       escreval("Mês não identificado.")
+       
+fimescolha
+
+
+Fimalgoritmo

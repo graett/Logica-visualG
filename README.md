@@ -70,3 +70,5 @@ Exer030 - Faça um algoritmo que receba N números e mostre positivo, negativo o
 Exer031 - Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais imprima uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe qual número é o maior, e uma mensagem que são diferentes.
 
 Exer032 - Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número que não esteja neste intervalo, exibir mensagem: número inválido.
+
+Exer033 - A concessionária de veículos CARANGO está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente. O desconto deverá ser calculado sobre o valor do veículo de acordo com o combustível (álcool 25%, gasolina 21% ou diesel 14%). Com valor do veículo zero encerra entrada de dados. Informe total de desconto e total pago pelos clientes.

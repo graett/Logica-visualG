@@ -74,3 +74,10 @@ Exer032 - Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso.
 Exer033 - A concessionária de veículos CARANGO está vendendo os seus veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente. O desconto deverá ser calculado sobre o valor do veículo de acordo com o combustível (álcool 25%, gasolina 21% ou diesel 14%). Com valor do veículo zero encerra entrada de dados. Informe total de desconto e total pago pelos clientes.
 
 Exer034 - Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Informe se houver mês inválido.
+
+Exer035 - Escrever um algoritmo para uma empresa que decide dar um reajuste a seus 584 funcionários de acordo com os seguintes critérios:
+  a) 50% para aqueles que ganham menos do que três salários mínimos;
+  b) 20% para aqueles que ganham entre três até dez salários mínimos;
+  c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
+  d) 10% para os demais funcionários.
+Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule o seu novo salário reajustado. Escrever o nome d funcionário, o reajuste e seu novo salário. Calcule quanto à empresa vai aumentar sua folha de pagamento.

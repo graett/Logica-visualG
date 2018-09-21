@@ -1,0 +1,78 @@
+// Escrever um algoritmo para uma empresa que decide dar um 
+// reajuste a seus 584 funcionários de acordo com os
+// seguintes critérios:
+// a) 50% para aqueles que ganham menos do que três salários mínimos;
+// b) 20% para aqueles que ganham entre três até dez salários mínimos;
+// c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
+// d) 10% para os demais funcionários.
+// Leia o nome do funcionário, seu salário e o valor do salário mínimo. 
+// Calcule o seu novo salário reajustado. Escrever o
+// nome do funcionário, o reajuste e seu novo salário. Calcule quanto à 
+// empresa vai aumentar sua folha de pagamento.
+
+
+Algoritmo "Reajuste Salarial"
+
+Var
+salarioMinimo, reajuste : real
+salarioAtual,salarioReajustado : real
+folhaPgt, folhaPgtR: real
+rCinq, rVint, rQinz, rDez: real
+nome: caractere
+i: inteiro
+
+
+Inicio
+escreval("::::FOLHA DE PAGAMENTO::::")
+escreval("")
+
+escreval("Informe o valor do salário mínimo atual:")
+leia(salarioMinimo)
+escreval("")
+
+para i de 1 ate 6 faca
+escreval("Informe o nome do funcionário:")
+leia(nome)
+escreval("")
+
+escreval("Informe o salário do funcionário:")
+leia(salarioAtual)
+escreval("")
+
+rCinq <- salarioAtual+(salarioAtual*0.5)
+rVint <- salarioAtual+(salarioAtual*0.2)
+rQinz <- salarioAtual+(salarioAtual*0.15)
+rDez <- salarioAtual+(salarioAtual*0.1)
+
+se salarioAtual < (3*salarioMinimo) entao
+   salarioReajustado <- rCinq
+senao
+se (salarioAtual >(3*salarioMinimo)) e (salarioAtual <(10*salarioMinimo)) entao
+   salarioReajustado <- rVint
+senao
+se (salarioAtual >(10*salarioMinimo)) e (salarioAtual <(20*salarioMinimo)) entao
+   salarioReajustado <- rQinz
+senao
+   salarioReajustado <- rDez
+fimse
+fimse
+fimse
+   
+escreval("")
+escreval("Funcionário: ", nome)
+escreval("Salário atual: ", salarioAtual)
+folhaPgt <- folhaPgt + salarioAtual
+escreval("Salário reajustado: ", salarioReajustado)
+folhaPgtR <- folhaPgtR + salarioReajustado
+escreval("")
+escreval("")
+
+fimpara
+
+escreval("")
+escreval("Valor atual gasto em folha de pagamento: ", folhaPgt)
+escreval("Valor reajustado a ser gasto em folha de pagamento: ", folhaPgtR)
+escreval("")
+escreval("")
+
+Fimalgoritmo

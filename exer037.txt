@@ -1,0 +1,55 @@
+// Dados três valores A, B e C, em que A e B são números reais e C 
+// é um caractere, pede-se para imprimir o resultado da operação de
+// A por B se C for um símbolo de operador aritmético; caso 
+// contrário deve ser impressa uma mensagem de operador não definido.
+// Tratar erro de divisão por zero.
+
+
+Algoritmo "OPERADORES ARITMETICOS"
+
+Var
+n1, n2: inteiro
+operador: caractere
+
+
+Inicio
+escreval("::::OPERADORES ARITMÉTICOS::::")
+escreval("")
+
+escreval("Informe o 1° número: ")
+leia(n1)
+escreval("")
+
+escreval("Informe o 2° número: ")
+leia(n2)
+escreval("")
+
+escreval("Escolha a operação desejada digitando o sinal:")
+escreval("+  soma")
+escreval("-  diferença")
+escreval("*  multiplicação")
+escreval("/  divisão")
+leia(operador)
+escreval("")
+
+escolha operador
+        caso "+"
+        escreval(n1," + ",n2," = ",n1 + n2)
+        caso "-"
+        escreval(n1," - ",n2," = ",n1 - n2)
+        caso "*"
+        escreval(n1," * ",n2," = ",n1 * n2)
+        caso "/"
+             se n2 =0 entao
+             escreval("Desculpe! Não podemos dividir um número por zero.")
+             senao
+             escreval(n1," / ",n2," = ",n1 / n2)
+             fimse
+        outrocaso
+        escreval("Operação aritmética não reconhecida")
+        
+fimescolha
+
+
+
+Fimalgoritmo

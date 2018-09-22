@@ -1,0 +1,94 @@
+// Escrever um algoritmo que leia três valores inteiros distintos 
+// e os escreva em ordem crescente
+
+
+
+
+Algoritmo "Ordem crescente"
+
+Var
+n1,n2,n3 : inteiro
+ordem: vetor [1..3] de inteiro
+
+
+Inicio
+escreval("::::ORDEM CRESCENTE::::")
+escreval("")
+
+escreva("Informe o 1° número:")
+leia(n1)
+escreval("")
+
+escreva("Informe o 2° número:")
+leia(n2)
+escreval("")
+
+escreva("Informe o 3° número:")
+leia(n3)
+escreval("")
+
+se (n1=n2) e (n1>n3) entao
+   ordem[3] <- n3
+   ordem[2] <- n2
+   ordem[1] <- n1
+senao
+se (n1>n2) e (n1=n3) entao
+   ordem[3] <- n2
+   ordem[2] <- n3
+   ordem[1] <- n1
+fimse
+fimse
+
+se (n1=n3) e (n1=n2) entao
+   ordem[3] <- n2
+   ordem[2] <- n3
+   ordem[1] <- n1
+fimse
+
+
+
+se (n1>=n2) e (n2>n3) entao
+   ordem[3] <- n3
+   ordem[2] <- n2
+   ordem[1] <- n1
+senao
+se (n1>n2) e (n3>=n2) entao
+   ordem[3] <- n2
+   ordem[2] <- n3
+   ordem[1] <- n1
+fimse
+fimse
+
+
+se (n2>n1) e (n1>n3) entao
+   ordem[3] <- n3
+   ordem[2] <- n1
+   ordem[1] <- n2
+senao
+se (n2>n1) e (n3<n1) entao
+   ordem[3] <- n1
+   ordem[2] <- n3
+   ordem[1] <- n2
+fimse
+fimse
+
+se (n3>n1) e (n1>n2) entao
+   ordem[3] <- n2
+   ordem[2] <- n1
+   ordem[1] <- n3
+senao
+se (n3>n1) e (n1<n2) entao
+   ordem[3] <- n1
+   ordem[2] <- n2
+   ordem[1] <- n3
+fimse
+fimse
+
+
+
+escreval("")
+escreval("Ordem crescente: ",ordem[3],", ",ordem[2],", ",ordem[1])
+
+
+
+Fimalgoritmo

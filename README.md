@@ -75,7 +75,7 @@ Exer033 - A concessionária de veículos CARANGO está vendendo os seus veículo
 
 Exer034 - Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Informe se houver mês inválido.
 
-Exer035 - Escrever um algoritmo para uma empresa que decide dar um reajuste a seus 584 funcionários de acordo com os seguintes critérios:
+Exer035 - Escrever um algoritmo para uma empresa que decide dar um reajuste a seus 6 funcionários de acordo com os seguintes critérios:
   a) 50% para aqueles que ganham menos do que três salários mínimos;
   b) 20% para aqueles que ganham entre três até dez salários mínimos;
   c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
@@ -83,3 +83,5 @@ Exer035 - Escrever um algoritmo para uma empresa que decide dar um reajuste a se
 Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule o seu novo salário reajustado. Escrever o nome d funcionário, o reajuste e seu novo salário. Calcule quanto à empresa vai aumentar sua folha de pagamento.
 
 Exer036 - Escrever um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente.
+
+Exer037 - Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o resultado da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser impressa uma mensagem de operador não definido. Tratar erro de divisão por zero.

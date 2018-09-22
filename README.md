@@ -81,3 +81,5 @@ Exer035 - Escrever um algoritmo para uma empresa que decide dar um reajuste a se
   c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
   d) 10% para os demais funcionários.
 Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule o seu novo salário reajustado. Escrever o nome d funcionário, o reajuste e seu novo salário. Calcule quanto à empresa vai aumentar sua folha de pagamento.
+
+Exer036 - Escrever um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente.

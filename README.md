@@ -87,3 +87,5 @@ Exer036 - Escrever um algoritmo que leia três valores inteiros distintos e os e
 Exer037 - Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o resultado da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser impressa uma mensagem de operador não definido. Tratar erro de divisão por zero.
 
 Exer038 - A escola APRENDER faz o pagamento de seus professores por hora/aula. Faça um algoritmo que calcule e exiba o salário de um professor. Sabe-se que o valor da hora/aula segue a tabela abaixo: Professor Nível 1 R$12,00 por hora/aula/ Professor Nível 2 R$17,00 por hora/aula/ Professor Nível 3 R$25,00 por hora/aula.
+
+Exer039 - Elabore um algoritmo que, dada a idade de um nadador, classifique-o em uma das seguintes categorias: Infantil A = 5 - 7 anos/ Infantil B = 8 - 10 anos/ juvenil A = 11- 13 anos / juvenil B = 14 - 17 anos/ Sênior = 18 - 25 anos. Apresentar mensagem “idade fora da faixa etária” quando for outra idade não contemplada.

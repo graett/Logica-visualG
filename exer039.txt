@@ -1,0 +1,50 @@
+// Elabore um algoritmo que, dada a idade de um nadador, 
+// classifique-o em uma das seguintes categorias:
+// Infantil A = 5 - 7 anos
+// Infantil B = 8 - 10 anos
+// juvenil A = 11- 13 anos
+// juvenil B = 14 - 17 anos
+// Sênior = 18 - 25 anos
+// Apresentar mensagem “idade fora da faixa etária” 
+// quando for outro ano não contemplado.
+
+Algoritmo "faixaetaria"
+
+Var
+idade: real
+
+
+Inicio
+escreval("::::CATEGORIAS DE NADADORES::::")
+escreval("")
+
+escreval("Informe a idade do atleta:")
+leia(idade)
+escreval("")
+escreva("O atleta está classificado na categoria ")
+
+escolha idade
+
+   caso 5, 6, 7
+   escreval("Infantil A.")
+
+   caso 8, 9, 10
+   escreval("Infantil B.")
+
+   caso 11, 12, 13
+   escreval("Juvenil A.")
+
+   caso 14, 15, 16, 17
+   escreval("Infantil B.")
+
+   caso 18, 19, 20, 21, 22, 23, 24, 25
+   escreval("Sênior.")
+   
+   outrocaso
+   escreval("Inexistente.")
+   escreval("Motivo: Idade fora da faixa etária.")
+
+
+fimescolha
+
+Fimalgoritmo

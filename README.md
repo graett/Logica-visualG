@@ -85,3 +85,5 @@ Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule
 Exer036 - Escrever um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente.
 
 Exer037 - Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o resultado da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser impressa uma mensagem de operador não definido. Tratar erro de divisão por zero.
+
+Exer038 - A escola APRENDER faz o pagamento de seus professores por hora/aula. Faça um algoritmo que calcule e exiba o salário de um professor. Sabe-se que o valor da hora/aula segue a tabela abaixo: Professor Nível 1 R$12,00 por hora/aula/ Professor Nível 2 R$17,00 por hora/aula/ Professor Nível 3 R$25,00 por hora/aula.

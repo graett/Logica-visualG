@@ -1,0 +1,53 @@
+// A escola APRENDER faz o pagamento de seus 
+// professores por hora/aula. Faça um algoritmo que calcule e exiba o
+// salário de um professor. Sabe-se que o valor da hora/aula segue a tabela:
+// Professor Nível 1 R$12,00 por hora/aula
+// Professor Nível 2 R$17,00 por hora/aula
+// Professor Nível 3 R$25,00 por hora/aula
+
+
+Algoritmo "horaAula"
+
+Var
+horaAula, valor: real
+nivel: inteiro
+
+
+
+Inicio
+escreval("::::HORA / AULA::::")
+escreval("")
+
+escreval("Informe o nível do professor:")
+escreval("1 ) nível 1")
+escreval("2 ) nível 2")
+escreval("3 ) nível 3")
+leia(nivel)
+escreval("")
+
+escolha nivel
+        caso 1
+        escreval("Informe a quantidade de horas/aula realizadas:")
+        leia(horaAula)
+        valor <- (horaAula * 12)
+        
+        caso 2
+        escreval("Informe a quantidade de horas/aula realizadas:")
+        leia(horaAula)
+        valor <- (horaAula * 17)
+        
+        caso 3
+        escreval("Informe a quantidade de horas/aula realizadas:")
+        leia(horaAula)
+        valor <- (horaAula * 25)
+        
+        outrocaso
+        escreval("Nível não reconhecido. Informe 1, 2 ou 3.")
+        
+fimescolha
+escreval("")
+escreval("O salário do professor é de: R$ ",valor)
+
+
+
+Fimalgoritmo

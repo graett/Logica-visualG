@@ -89,3 +89,5 @@ Exer037 - Dados três valores A, B e C, em que A e B são números reais e C é 
 Exer038 - A escola APRENDER faz o pagamento de seus professores por hora/aula. Faça um algoritmo que calcule e exiba o salário de um professor. Sabe-se que o valor da hora/aula segue a tabela abaixo: Professor Nível 1 R$12,00 por hora/aula/ Professor Nível 2 R$17,00 por hora/aula/ Professor Nível 3 R$25,00 por hora/aula.
 
 Exer039 - Elabore um algoritmo que, dada a idade de um nadador, classifique-o em uma das seguintes categorias: Infantil A = 5 - 7 anos/ Infantil B = 8 - 10 anos/ juvenil A = 11- 13 anos / juvenil B = 14 - 17 anos/ Sênior = 18 - 25 anos. Apresentar mensagem “idade fora da faixa etária” quando for outra idade não contemplada.
+
+Exer040 - Faça um algoritmo que calcule o valor da conta de luz de uma pessoa. Sabe-se que o cálculo da conta de luz segue a tabela >> Tipo de Cliente Valor do KW/h: 1 (Residência) 0,60/ 2 (Comércio) 0,48/ 3 (Indústria) 1,29.

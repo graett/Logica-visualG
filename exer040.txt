@@ -1,0 +1,51 @@
+// Faça um algoritmo que calcule o valor da conta de luz de uma 
+// pessoa. Sabe-se que o cálculo da conta de luz segue a tabela:
+// Tipo de Cliente Valor do KW/h:
+// 1 (Residência) 0,60
+// 2 (Comércio) 0,48
+// 3 (Indústria) 1,29
+
+
+
+
+Algoritmo "Consumo de energia"
+
+Var
+valorConta, kWh: real
+op: inteiro
+
+
+Inicio
+escreval("::::CONSUMO DE ENERGIA::::")
+escreval("")
+
+escreval("Informe o consumo de KW/h:")
+leia(kWH)
+escreval("")
+
+escreval("Informe o tipo do estabelecimento:")
+escreval("1) Residência")
+escreval("2) Comércio")
+escreval("3) Indústria")
+leia(op)
+
+escolha op
+        caso 1
+        valorConta<- kWh * 0.6
+        
+        caso 2
+        valorConta<- kWh * 0.48
+        
+        caso 3
+        valorConta<- kWh * 1,29
+        
+        outrocaso
+        escreval("Tipo desconhecido. Informe 1, 2 ou 3.")
+
+fimescolha
+escreval("")
+escreval("O valor da conta de luz é de: R$ ",valorConta:7:2)
+
+
+
+Fimalgoritmo
